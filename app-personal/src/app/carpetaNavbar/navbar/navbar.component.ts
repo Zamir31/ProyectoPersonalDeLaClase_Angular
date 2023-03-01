@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IEnlace } from '../IEnlace';
 
 @Component({
   selector: 'app-navbar',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  enlace: IEnlace = {
+    nombreEnlace: 'Google',
+    urlEnlace: 'http://google.com'
+  }
 
 }

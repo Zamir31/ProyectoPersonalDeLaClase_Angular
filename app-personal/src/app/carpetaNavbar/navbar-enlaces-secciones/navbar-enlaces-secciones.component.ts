@@ -18,6 +18,11 @@ export class NavbarEnlacesSeccionesComponent implements IEnlaces, IEnlace {
       nombreEnlace : 'Github',
       iconoUrl : 'https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png',
       urlEnlace : 'http://www.github.com'
+    },
+    {
+      nombreEnlace : 'Bootstrap',
+      iconoUrl : 'https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png',
+      urlEnlace : 'http://www.Bootstrap.com'
     }
   ];
 

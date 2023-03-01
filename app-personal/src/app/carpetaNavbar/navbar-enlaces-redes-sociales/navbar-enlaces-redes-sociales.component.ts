@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IEnlace } from '../IEnlace';
 
 @Component({
   selector: 'app-navbar-enlaces-redes-sociales',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar-enlaces-redes-sociales.component.css']
 })
 export class NavbarEnlacesRedesSocialesComponent {
-
+  @Input() enlace? : IEnlace
 }
